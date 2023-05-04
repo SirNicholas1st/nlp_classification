@@ -1,0 +1,58 @@
+{
+  "lang":"en",
+  "name":"pipeline",
+  "version":"0.0.0",
+  "spacy_version":">=3.5.2,<3.6.0",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_git_version":"aea4a96f9",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null,
+    "mode":"default"
+  },
+  "labels":{
+    "textcat_multilabel":[
+      "Recommended",
+      "Not recommended"
+    ]
+  },
+  "pipeline":[
+    "textcat_multilabel"
+  ],
+  "components":[
+    "textcat_multilabel"
+  ],
+  "disabled":[
+
+  ],
+  "performance":{
+    "cats_score":0.99748784,
+    "cats_score_desc":"macro AUC",
+    "cats_micro_p":0.9896,
+    "cats_micro_r":0.9896,
+    "cats_micro_f":0.9896,
+    "cats_macro_p":0.9897253697,
+    "cats_macro_r":0.9896,
+    "cats_macro_f":0.9895993344,
+    "cats_macro_auc":0.99748784,
+    "cats_f_per_type":{
+      "Recommended":{
+        "p":0.9818897638,
+        "r":0.9976,
+        "f":0.9896825397
+      },
+      "Not recommended":{
+        "p":0.9975609756,
+        "r":0.9816,
+        "f":0.989516129
+      }
+    },
+    "textcat_multilabel_loss":2.4462435849
+  }
+}
